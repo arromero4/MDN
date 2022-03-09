@@ -1,0 +1,250 @@
+/* General setup */}
+@font-face {
+    font-family: 'amaranthbold';
+    src: url('amaranth-bold-webfont.woff2') format('woff2'),
+         url('amaranth-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthbold_italic';
+    src: url('amaranth-bolditalic-webfont.woff2') format('woff2'),
+         url('amaranth-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthitalic';
+    src: url('amaranth-italic-webfont.woff2') format('woff2'),
+         url('amaranth-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('../Assesment6/webfontkit-20220308-183608/amaranth-regular-webfont.woff2') format('woff2'),
+         url('../Assesment6/webfontkit-20220308-183608/amaranth-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_handregular';
+    src: url('sf_cartoonist_hand-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_handbold';
+    src: url('sf_cartoonist_hand_bold-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_handbold_italic';
+    src: url('sf_cartoonist_hand_bold_italic-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_handitalic';
+    src: url('sf_cartoonist_hand_italic-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_hand_scregular';
+    src: url('../Assesment6/webfontkit-20220308-183608/sf_cartoonist_hand_sc-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_sc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_hand_scbold';
+    src: url('sf_cartoonist_hand_sc_bold-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_sc_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_hand_scBdIt';
+    src: url('sf_cartoonist_hand_sc_bold_italic-webfont.woff2') format('woff2'),
+         url('sf_cartoonist_hand_sc_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sf_cartoonist_hand_scitalic';
+    src: url('../Assesment6/webfontkit-20220308-183608/sf_cartoonist_hand_sc_italic-webfont.woff2') format('woff2'),
+         url('../Assesment6/webfontkit-20220308-183608/sf_cartoonist_hand_sc_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 10px;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    line-height: 1.6;
+    font-family: 'amaranthregular', serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+    line-height: 5;
+    
+  }
+  
+
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    text-align: center;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+
+  h1, h2{
+    font-family: 'sf_cartoonist_hand_scregular', serif;
+  }
+
+header{
+    letter-spacing: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: underline;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #a66;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    /* border-bottom: 1px solid; */
+    /* background: #BAE498; */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    /* border-bottom: 1px solid; */
+    background: #CDFEAA;
+    text-decoration: none;
+  }
+  
+  a:active {
+    background: #a66;
+    color: #CDFEAA;
+  }
+
+  a[href^="http"] {
+    background: url('external-link-52.png') no-repeat 100% 0;
+    background-size: 10px 10px;
+    padding-right: 19px;
+  }
+
+
+  li {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
